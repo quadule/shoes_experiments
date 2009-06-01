@@ -1,8 +1,13 @@
 Some fun little experiments in Ruby and Shoes:
 
+* Automaton: a simple demo of elementary (one-dimensional, two-state) cellular
+  automata
+
 * Coloution: a color-mixing cellular automaton, ported from Derrick Staples'
   JS + Canvas version here: http://atinybird.com/experiments/coloution/
 
 * Concentricity: rotating wobbly concentric circles with 3D mouse perspective
 
 * Tic Tac Toe: an unbeatable game of Tic Tac Toe
+
+All programs are released under the MIT license.
