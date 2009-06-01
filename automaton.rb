@@ -69,7 +69,7 @@ Shoes.app :title => "Automaton", :width => 380, :height => 470, :resizable => fa
     flow do
       para " Rule:"
       @rule = edit_line('90', :width => 40).change do
-        @row.rule_number = @rule.text.to_i
+        @row.rule = @rule.text.to_i
       end
       
       para " Seed:"
